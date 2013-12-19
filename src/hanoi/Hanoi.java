@@ -107,7 +107,7 @@ public class Hanoi {
 	 * @param args : number of tower to use, default is 3
 	 */
 	public static void main (String[] args) {
-		int size = 3;
+		int size = 12;
 		if (args.length == 1)
 			size = Integer.parseInt(args[0]);
 		
