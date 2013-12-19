@@ -114,7 +114,7 @@ public class Hanoi {
 		Hanoi hanoi = new Hanoi(size);
 				
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		//TODO REMOVE Hello
+
 		try
 		{
 			while (!hanoi.isWon()) {
